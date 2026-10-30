@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ceia de Natal Sem Estresse — Planejador da Anfitriã</title>
+<meta name="description" content="Guia em PDF para planejar a ceia de Natal: quanto comprar, quando fazer cada coisa e quem leva o quê. Para 4, 8, 12 ou 20 pessoas. R$ 24,90.">
+<meta name="theme-color" content="#1c3b2f">
+<link rel="preload" as="image" href="img/p1.webp" type="image/webp">
+<style>
+:root{--g:#1c3b2f;--g2:#27503f;--cream:#faf5e9;--cream2:#f2e9d2;--gold:#c3953a;--gold2:#e2bb68;--red:#a8322d;--ink:#22302a;--mut:#5d6b63;--r:16px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:Georgia,"Times New Roman",serif;background:var(--cream);color:var(--ink);line-height:1.55;font-size:17px;overflow-x:hidden;padding-bottom:84px}
+h1,h2,h3,.sans,button,.btn,.eyebrow{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+img{max-width:100%;height:auto;display:block}
+.wrap{width:100%;max-width:960px;margin:0 auto;padding:0 20px}
+section{padding:44px 0}
+h2{font-size:1.65rem;line-height:1.2;color:var(--g);margin-bottom:14px;letter-spacing:-.01em;font-weight:800}
+h3{font-size:1.05rem;color:var(--g);margin-bottom:4px}
+p+p{margin-top:12px}
+.eyebrow{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:700;margin-bottom:10px}
+.dark .eyebrow{color:var(--gold2)}
+.btn{display:block;width:100%;text-align:center;background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:1.08rem;padding:17px 22px;border-radius:999px;border:0;cursor:pointer;box-shadow:0 4px 10px rgba(0,0,0,.25);min-height:56px}
+.btn:active{transform:translateY(1px)}
+.btn small{display:block;font-weight:500;font-size:.78rem;opacity:.9;margin-top:2px}
+.note{font-family:system-ui,sans-serif;font-size:.82rem;color:var(--mut);margin-top:10px;text-align:center}
+.dark{background:var(--g);color:#eef0e6}
+.dark h1,.dark h2,.dark h3{color:#fff}
+.dark .note{color:#b9c8bd}
+.hero{padding:0 0 40px;background:var(--g);color:#eef0e6;border-bottom:6px solid var(--gold);position:relative}
+.hero:before{content:"";display:block;height:8px;background:repeating-linear-gradient(90deg,var(--red) 0 14px,var(--gold) 14px 28px,#2f6a52 28px 42px)}
+.hero .wrap{padding-top:30px}
+.hero h1{font-size:1.85rem;line-height:1.15;color:#fff;font-weight:800;letter-spacing:-.015em;margin-bottom:14px}
+.hero h1 em{font-style:normal;color:var(--gold2)}
+.hero .sub{color:#d6dfd4;margin-bottom:20px}
+.hero .real{font-family:system-ui,sans-serif;font-size:.86rem;color:var(--gold2);margin:16px 0 0;text-align:center}
+.hero .mock{margin:30px auto 0}
+.phone{width:min(230px,62vw);margin:0 auto;background:#10201a;border-radius:30px;padding:9px;box-shadow:0 18px 40px rgba(0,0,0,.28),inset 0 0 0 2px #2c3d35;position:relative}
+.phone:before{content:"";position:absolute;top:13px;left:50%;width:46px;height:5px;margin-left:-23px;background:#10201a;border-radius:4px;z-index:2}
+.phone img{border-radius:22px;width:100%;aspect-ratio:648/811;background:var(--cream)}
+.rail{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 20px 20px;margin:0 -20px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.rail figure{flex:0 0 min(236px,66vw);scroll-snap-align:center;text-align:center}
+.rail .phone{width:100%}
+.rail figcaption{font-family:system-ui,sans-serif;font-size:.86rem;color:var(--mut);margin-top:12px;line-height:1.4}
+.rail figcaption b{display:block;color:var(--g);font-size:.95rem;margin-bottom:2px}
+.hint{font-family:system-ui,sans-serif;font-size:.78rem;color:var(--mut);text-align:center}
+.list{list-style:none}
+.list li{position:relative;padding:12px 0 12px 34px;border-bottom:1px solid #e6dcc3}
+.list li:last-child{border:0}
+.list li:before{content:"✦";position:absolute;left:4px;top:11px;color:var(--gold);font-size:1.05rem}
+.list b{color:var(--g)}
+.no li:before{content:"✕";color:var(--red);font-family:system-ui;font-weight:700;font-size:.95rem;top:13px}
+.card{background:#fff;border:1px solid #e6dcc3;border-radius:var(--r);padding:20px}
+.cols{display:grid;gap:30px}
+.steps{counter-reset:s;list-style:none;display:grid;gap:14px}
+.steps li{counter-increment:s;background:var(--g2);border-radius:var(--r);padding:18px 18px 18px 64px;position:relative}
+.steps li:before{content:counter(s);position:absolute;left:16px;top:16px;width:36px;height:36px;border-radius:50%;background:var(--gold);color:var(--g);font:800 1.1rem system-ui,sans-serif;display:grid;place-items:center}
+.steps p{color:#d6dfd4;font-size:.96rem;margin:0}
+.price{text-align:center;background:#fff;border:2px solid var(--gold);border-radius:22px;padding:28px 20px;box-shadow:0 10px 30px rgba(28,59,47,.1)}
+.price .v{font:800 3rem/1 system-ui,sans-serif;color:var(--g);margin:10px 0 4px}
+.price .v small{font-size:1.2rem;vertical-align:top;margin-right:3px}
+.price ul{list-style:none;text-align:left;margin:18px auto 22px;max-width:360px;font-size:.96rem}
+.price li{padding:5px 0 5px 24px;position:relative}
+.price li:before{content:"✓";position:absolute;left:0;color:var(--red);font-weight:800;font-family:system-ui}
+.anchor{background:var(--cream);border:1px dashed var(--gold);border-radius:var(--r);padding:18px 20px;margin-top:20px;font-size:.96rem}
+.guar{display:flex;gap:16px;align-items:flex-start}
+.seal{flex:0 0 64px;height:64px;border-radius:50%;background:var(--gold);color:var(--g);font:800 1.5rem/1 system-ui;display:grid;place-items:center;text-align:center;box-shadow:inset 0 0 0 4px var(--cream),inset 0 0 0 6px var(--g)}
+.seal span{display:block;font-size:.55rem;letter-spacing:.08em}
+details{background:#fff;border:1px solid #e6dcc3;border-radius:12px;margin-bottom:10px}
+summary{font:700 1rem/1.35 system-ui,sans-serif;color:var(--g);padding:16px 44px 16px 16px;cursor:pointer;list-style:none;position:relative;min-height:52px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";position:absolute;right:16px;top:12px;font-size:1.4rem;color:var(--red);font-weight:400}
+details[open] summary:after{content:"−"}
+details p{padding:0 16px 16px;font-size:.96rem;color:#394840}
+footer{background:#10201a;color:#a9b8ae;font-family:system-ui,sans-serif;font-size:.8rem;padding:30px 0 20px;text-align:center}
+footer a{color:var(--gold2)}
+footer p{margin-top:8px}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(250,245,233,.97);border-top:1px solid #e0d4b4;padding:10px 16px calc(10px + env(safe-area-inset-bottom));transform:translateY(110%);transition:transform .25s;display:flex;gap:12px;align-items:center;justify-content:center}
+.sticky.on{transform:none}
+.sticky .p{font:800 1.15rem system-ui,sans-serif;color:var(--g);white-space:nowrap}
+.sticky .p small{display:block;font-weight:500;font-size:.68rem;color:var(--mut)}
+.sticky .btn{width:auto;flex:1;max-width:320px;padding:14px 16px;font-size:1rem;min-height:50px;box-shadow:none}
+@media(min-width:760px){
+ body{font-size:18px;padding-bottom:0}
+ section{padding:64px 0}
+ h2{font-size:2.1rem}
+ .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-top:50px}
+ .hero h1{font-size:2.5rem}
+ .hero .mock{margin:0}
+ .hero .btn{max-width:380px}
+ .hero .real{text-align:left}
+ .cols{grid-template-columns:1fr 1fr;gap:40px}
+ .steps{grid-template-columns:repeat(3,1fr)}
+ .steps li{padding:70px 18px 18px}
+ .steps li:before{left:18px;top:18px}
+ .rail{justify-content:center;flex-wrap:wrap;overflow:visible;margin:0;padding:6px 0 10px}
+ .rail figure{flex:0 0 220px}
+ .hint{display:none}
+ .sticky{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+ <div class="wrap">
+  <div>
+   <p class="eyebrow" style="color:var(--gold2)">Planejador da Anfitriã · Edição Natal 2026</p>
+   <h1>Planeje a ceia de Natal para 4, 8, 12 ou 20 pessoas: <em>quanto comprar, quando fazer cada coisa e quem leva o quê.</em></h1>
+   <p class="sub">Um guia em PDF, feito para ler no celular, com tabelas prontas, cronograma do dia 17 ao dia 24 e lista de compras por setor do mercado.</p>
+   <a class="btn js-buy" href="#comprar" data-where="hero">Quero o planejador — R$ 24,90<small>PDF + planilha de rateio · acesso imediato após a confirmação</small></a>
+   <p class="real">O Natal é dia 24. Quem planeja na primeira semana de dezembro chega lá com a mesa pensada e a cozinha em ordem.</p>
+  </div>
+  <div class="mock">
+   <div class="phone"><img src="img/p1.webp" width="648" height="811" alt="Capa do guia Ceia de Natal Sem Estresse: mesa redonda com pratos e uma estrela ao centro" fetchpriority="high"></div>
+  </div>
+ </div>
+</header>
+
+<section>
+ <div class="wrap">
+  <p class="eyebrow">A correria da ceia</p>
+  <h2>A ceia raramente dá errado por falta de receita.</h2>
+  <p>Quem já organizou uma ceia conhece o roteiro: a lista de compras feita de cabeça, a dúvida de quanto de carne comprar, a ave que ainda estava congelada na véspera, o forno ocupado quando mais precisa, o grupo da família sem ninguém decidir quem leva o quê.</p>
+  <p>O resultado costuma ser o mesmo: sobra um prato, falta outro e a anfitriã passa a noite na cozinha.</p>
+  <p><b>Dá errado por falta de planejamento.</b> É isso que este guia resolve: ele organiza a ceia inteira antes do dia 24.</p>
+ </div>
+</section>
+
+<section style="background:var(--cream2)" id="dentro">
+ <div class="wrap">
+  <p class="eyebrow">O que tem dentro</p>
+  <h2>50 páginas na proporção do celular. Estas são páginas reais.</h2>
+  <p style="margin-bottom:18px">As imagens abaixo são páginas do próprio guia, sem edição. O que você vê é o que você recebe.</p>
+  <div class="rail">
+   <figure><div class="phone"><img loading="lazy" src="img/p6.webp" width="648" height="811" alt="Página da calculadora de quantidades de carnes para 4, 8, 12 e 20 pessoas"></div><figcaption><b>Calculadora de quantidades</b>4, 8, 12 e 20 pessoas, com coluna “por pessoa” e 10% de margem já incluída.</figcaption></figure>
+   <figure><div class="phone"><img loading="lazy" src="img/p10.webp" width="648" height="811" alt="Página com os três cardápios: Econômico, Tradicional e Fartura"></div><figcaption><b>Três cardápios</b>Econômico (5 pratos), Tradicional (8) e Fartura, e como combinar.</figcaption></figure>
+   <figure><div class="phone"><img loading="lazy" src="img/p35.webp" width="648" height="811" alt="Página do cronograma do dia 24, das 15h às 19h"></div><figcaption><b>Cronograma do D-7 à noite da ceia</b>O horário de cada tarefa no dia 24 e uma tabela para ajustar se a ceia for mais cedo ou mais tarde.</figcaption></figure>
+   <figure><div class="phone"><img loading="lazy" src="img/p38.webp" width="648" height="811" alt="Página da lista de compras por setor, com colunas tenho e preço"></div><figcaption><b>Lista de compras por setor</b>Com colunas “tenho” e “preço” para você anotar no mercado.</figcaption></figure>
+   <figure><div class="phone"><img loading="lazy" src="img/p43.webp" width="648" height="811" alt="Página Quem leva o quê, dividindo os pratos entre anfitriã e convidados"></div><figcaption><b>Quem leva o quê</b>Divisão dos pratos entre anfitriã e convidados, com três mensagens prontas para o grupo da família.</figcaption></figure>
+   <figure><div class="phone"><img loading="lazy" src="img/p49.webp" width="648" height="811" alt="Página de orçamento: faça a conta antes do mercado"></div><figcaption><b>Orçamento</b>Coloque os preços do seu mercado e saiba o total antes de sair de casa.</figcaption></figure>
+  </div>
+  <p class="hint">Deslize para o lado para ver mais →</p>
+
+  <div class="card" style="margin-top:26px">
+   <h3 style="font-size:1.15rem;margin-bottom:6px">Além disso, o guia traz</h3>
+   <ul class="list">
+    <li><b>8 receitas clássicas</b> com ingredientes já escalados para cada tamanho de ceia: peru ou chester, lombo, arroz natalino, farofa, salpicão, maionese de batata, rabanada e pavê de chocolate.</li>
+    <li><b>Versão econômica:</b> trocas para reduzir a conta.</li>
+    <li><b>Plano B:</b> o que fazer quando a ave está congelada, o forno atrasou ou chegam mais convidados.</li>
+    <li><b>Checklists para imprimir.</b></li>
+    <li><b>Planilha Rateio da Ceia</b> (Excel, importável no Google Planilhas): registre os gastos, informe adultos e crianças e veja quanto cada família deve pagar ou tem a receber, com fórmulas prontas.</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="dark">
+ <div class="wrap">
+  <p class="eyebrow">Como funciona</p>
+  <h2>Três passos, em uma tarde.</h2>
+  <ol class="steps">
+   <li><h3>Diga quantos são</h3><p>Escolha o tamanho da ceia e um dos três cardápios. A calculadora já mostra quanto de cada ingrediente comprar.</p></li>
+   <li><h3>Siga o cronograma</h3><p>Do D-7 à noite do dia 24, cada tarefa tem o seu dia e o seu horário. Menos improviso, forno sem conflito.</p></li>
+   <li><h3>Divida e vá ao mercado</h3><p>Mande as mensagens prontas do “quem leva o quê” e saia com a lista por setor na mão.</p></li>
+  </ol>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="cols">
+   <div>
+    <p class="eyebrow">Para quem é</p>
+    <h2>Este guia é para você se…</h2>
+    <ul class="list">
+     <li>vai fazer a <b>primeira ceia em casa</b>.</li>
+     <li>recebe uma <b>família grande</b> e precisa saber quanto comprar.</li>
+     <li>tem <b>orçamento apertado</b> e quer decidir antes de ir ao mercado.</li>
+     <li><b>cansou de improvisar</b> no dia 24.</li>
+     <li>quer <b>dividir o trabalho</b> com a família sem briga no grupo.</li>
+    </ul>
+   </div>
+   <div>
+    <p class="eyebrow">Para quem não é</p>
+    <h2>Talvez não seja para você se…</h2>
+    <ul class="list no">
+     <li>você procura um <b>livro de receitas sofisticadas</b>. As receitas aqui são as clássicas, de forma simples.</li>
+     <li>espera <b>preços fechados</b>. Preço muda por cidade e por semana; por isso há colunas em branco e uma planilha para você colocar o seu.</li>
+    </ul>
+    <p style="margin-top:12px;font-size:.95rem;color:var(--mut)">Ceia para menos de 4 pessoas? Funciona: use a coluna “por pessoa”.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section style="background:var(--cream2)" id="comprar">
+ <div class="wrap" style="max-width:560px">
+  <p class="eyebrow" style="text-align:center">Quanto custa</p>
+  <div class="price">
+   <h2 style="margin-bottom:2px">Ceia de Natal Sem Estresse</h2>
+   <p class="sans" style="font-size:.9rem;color:var(--mut)">Planejador da Anfitriã</p>
+   <div class="v"><small>R$</small>24,90</div>
+   <p class="sans" style="font-size:.85rem;color:var(--mut)">pagamento único · formas de pagamento no checkout (inclui Pix)</p>
+   <ul>
+    <li>PDF com 50 páginas, para ler no celular</li>
+    <li>Planilha Rateio da Ceia (Excel)</li>
+    <li>Acesso imediato depois da confirmação do pagamento</li>
+    <li>Arquivo seu para baixar, imprimir e usar</li>
+   </ul>
+   <a class="btn js-buy" href="#comprar" data-where="price">Quero o planejador<small>Compra segura pela Hotmart</small></a>
+  </div>
+  <div class="anchor">
+   <b>Pense no custo de errar a conta.</b> Um quilo de carne a mais, uma sobremesa que ninguém comeu, uma ida extra ao mercado na véspera: errar a quantidade de dois ou três itens pode custar mais do que o guia. Aqui a conta é feita antes, com margem de 10% já incluída.
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap" style="max-width:640px">
+  <div class="guar">
+   <div class="seal"><div>7<span>DIAS</span></div></div>
+   <div>
+    <h2 style="margin-bottom:8px">Garantia de 7 dias</h2>
+    <p>Se você abrir o guia e achar que não é para você, peça o reembolso em até 7 dias corridos depois da compra. O pedido é feito pela Hotmart, que devolve o valor pago. Sem formulário complicado e sem pergunta.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section style="background:var(--cream2)">
+ <div class="wrap" style="max-width:700px">
+  <p class="eyebrow">Perguntas frequentes</p>
+  <h2>Dúvidas comuns</h2>
+  <details><summary>Serve para menos de 6 pessoas?</summary><p>Serve. As tabelas trazem 4, 8, 12 e 20 pessoas e todas têm a coluna “por pessoa”, que funciona para qualquer número.</p></details>
+  <details><summary>Tem receitas?</summary><p>Tem 8 receitas clássicas de ceia, com ingredientes escalados para 4, 8, 12 e 20 pessoas e passo a passo. O foco do guia é o planejamento: quantidades, horários e divisão.</p></details>
+  <details><summary>Os tempos de forno e as quantidades são exatos?</summary><p>São médios e estimados. Forno e fogão variam; o guia recomenda usar termômetro de cozinha nas carnes e confirmar o ponto antes de servir.</p></details>
+  <details><summary>Como eu recebo?</summary><p>Por e-mail e na área de compra da Hotmart, logo depois da confirmação do pagamento.</p></details>
+  <details><summary>Posso imprimir?</summary><p>Pode. Há checklists prontos para imprimir. O PDF também foi feito na proporção do celular, para ler na tela.</p></details>
+  <details><summary>Como funciona a planilha?</summary><p>É um arquivo Excel. Você informa os convidados e os gastos e ela calcula o rateio com fórmulas. Dá para importar no Google Planilhas.</p></details>
+  <details><summary>Tem preço dos produtos?</summary><p>Não. Preço muda por cidade e por semana, então preferimos não inventar valores. Há uma página de orçamento e uma planilha onde você coloca os preços do seu mercado.</p></details>
+  <details><summary>O guia atende a restrições alimentares?</summary><p>As receitas levam ovos, leite, trigo, castanhas e uva-passa. O guia sugere perguntar aos convidados no convite e traz ideias de adaptação no Plano B. Não substitui orientação de profissional de saúde.</p></details>
+  <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia. O pedido de reembolso é feito pela Hotmart.</p></details>
+ </div>
+</section>
+
+<section class="dark" style="text-align:center">
+ <div class="wrap" style="max-width:520px">
+  <h2>Chegue ao dia 24 com a ceia pensada.</h2>
+  <p style="margin-bottom:22px;color:#d6dfd4">R$ 24,90, acesso imediato e 7 dias de garantia.</p>
+  <a class="btn js-buy" href="#comprar" data-where="final">Quero o planejador — R$ 24,90</a>
+  <p class="note">Compra segura pela Hotmart</p>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <p style="margin:0">Produto digital vendido e entregue pela Hotmart.</p>
+  <p><a href="privacidade.html">Termos e política de privacidade</a></p>
+  <p>Este produto é digital e independente. Não tem vínculo com marcas citadas apenas como tipo de produto. Não substitui orientação de profissional de saúde.</p>
+ </div>
+</footer>
+
+<div class="sticky" id="sticky" aria-hidden="true">
+ <div class="p">R$ 24,90<small>pagamento único</small></div>
+ <a class="btn js-buy" href="#comprar" data-where="sticky" tabindex="-1">Quero o planejador</a>
+</div>
+
+<script>
+// ===== CONFIGURAR ANTES DE PUBLICAR (os dois únicos lugares) =====
+const CHECKOUT_URL = "https://pay.hotmart.com/PLACEHOLDER";
+const PIXEL_ID = "1803302293652082";
+// =================================================================
+
+(function(){
+  var PIXEL_ON = PIXEL_ID && PIXEL_ID !== "PLACEHOLDER";
+  var CHECKOUT_ON = CHECKOUT_URL.indexOf("PLACEHOLDER") === -1;
+
+  // Pixel Meta: só carrega com PIXEL_ID real
+  if (PIXEL_ON) {
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', PIXEL_ID);
+    fbq('track', 'PageView');
+  }
+  function track(ev, data){ if (PIXEL_ON && window.fbq) fbq('track', ev, data || {}); }
+
+  // Checkout com src/utm_*/fbclid repassados
+  var KEYS = ['src','sck','fbclid','utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id'];
+  function buildCheckout(){
+    var out, cur;
+    try { out = new URL(CHECKOUT_URL); cur = new URLSearchParams(location.search); } catch(e){ return CHECKOUT_URL; }
+    KEYS.forEach(function(k){ var v = cur.get(k); if (v) out.searchParams.set(k, v); });
+    return out.toString();
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.js-buy'), function(a){
+    a.addEventListener('click', function(ev){
+      ev.preventDefault();
+      track('InitiateCheckout', {value: 24.90, currency: 'BRL', content_name: 'Ceia de Natal Sem Estresse'});
+      if (!CHECKOUT_ON) { // placeholder: só rola até o preço
+        if (a.getAttribute('data-where') !== 'price') document.getElementById('comprar').scrollIntoView({behavior:'smooth'});
+        return;
+      }
+      var url = buildCheckout();
+      setTimeout(function(){ location.href = url; }, 150);
+    });
+  });
+
+  // ViewContent aos 50% de scroll (uma vez) + barra fixa
+  var vc = false;
+  function onScroll(){
+    var d = document.documentElement, max = d.scrollHeight - innerHeight;
+    var y = pageYOffset || d.scrollTop;
+    if (!vc && max > 0 && y / max >= 0.5) {
+      vc = true;
+      track('ViewContent', {value: 24.90, currency: 'BRL', content_name: 'Ceia de Natal Sem Estresse', content_type: 'product'});
+    }
+    var s = document.getElementById('sticky');
+    var r = document.getElementById('comprar').getBoundingClientRect();
+    var show = y > 420 && !(r.top < innerHeight * .8 && r.bottom > 120);
+    s.classList.toggle('on', show);
+    s.setAttribute('aria-hidden', show ? 'false' : 'true');
+  }
+  addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+})();
+</script>
+</body>
+</html>
